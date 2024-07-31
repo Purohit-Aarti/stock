@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* addition */
+
+.nav-link {
+  margin-right: 25px;
+  font-size: medium;
+}
+
+.footer-anchor {
+  text-decoration: none;
+  line-height: 30px;
+  font-size: medium;
+  font-weight: 460;
+}
+
+.footer-para {
+  font-size: 20px;
+  font-weight: 480;
+}
+
+.footer-endLinks {
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.footer-endLinks:hover {
+  color: blue;
+}
+
+.nav-link:hover {
+  color: #1272e6;
+}
+
+/* .foot-div a:hover {
+  color: blue;
+} */
+
+.fa {
+  font-size: 20px;
+}
+.fa:hover {
+  color: #387ed1;
+}
+
+.price-brk {
+  color: #387ed1;
+  margin-left: 110px;
+  font-size: 20px;
+}
+.price-brk-ul {
+  font-size: smaller;
+  line-height: 25px;
+}
+
+.support-ticket a {
+  text-decoration: none;
+  font-size: medium;
+  line-height: 2.0;
+}
+.support-ticket h3 {
+  font-size: medium;
+  margin-bottom: 15px;
+}
+.support-ticket p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#supportHero {
+  background-color: #387ed1;
+  color: #fff;
+}
+
+#supportHero-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0px;
+}
+
+.support-hero-anchor {
+  text-decoration: underline;
+  line-height: 2;
+  color: #fff;
+  margin-right: 18px;
+  font-size: 110%;
+}
+
+#supportHero input {
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  margin-bottom: 8px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
